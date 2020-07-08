@@ -1,0 +1,51 @@
+#header-nav {
+	background-color: #CBCBCB;
+	border-radius: 0;
+	border: 0px;
+}
+
+#brand {
+	color: black;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+	
+	#collapsable-nav {
+	background-color: #B8B8B8;
+	}
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+}
+
+li:nth-child(2){
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#nav-list a:hover {
+	background: #A2A2A2;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+#section1, #section2, #section3 {
+	width: 100%;
+	background-color: #CBCBCB;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+#section1 p, #section2 p, #section3 p {
+	color: black;
+}
+
+a.link-back {
+	color: #3F43FE;
+}
